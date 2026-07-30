@@ -1,6 +1,6 @@
-   # 🛒 Zepto Business Performance Dashboard
-
 <div align="center">
+
+# 🛒 Zepto Business Performance Dashboard
 
 ## End-to-End Business Intelligence Project
 
