@@ -124,7 +124,7 @@ Business Insights & Recommendations
 
 ## Executive Overview
 
-![Executive Overview](Images\01_Executive_Overview.png)
+![Executive Overview](Images/01_Executive_Overview.png)
 
 Executive dashboard providing a consolidated view of revenue, orders, customers, monthly trends, order status, category performance, and delivery KPIs.
 
@@ -132,7 +132,7 @@ Executive dashboard providing a consolidated view of revenue, orders, customers,
 
 ## Business Analytics
 
-![Business Analytics](Images\02_Business_Analytics.png)
+![Business Analytics](Images/02_Business_Analytics.png)
 
 Analytical dashboard covering top-performing products, brands, dark stores, payment distribution, peak order hours, and high-value customers.
 
@@ -140,7 +140,7 @@ Analytical dashboard covering top-performing products, brands, dark stores, paym
 
 ## Business Insights & Recommendations
 
-![Business Insights](Images\03_Business_Insights_Recommendations.png)
+![Business Insights](Images/03_Business_Insights_Recommendations.png)
 
 Business-focused summary highlighting analytical findings and strategic recommendations for operational improvement.
 
