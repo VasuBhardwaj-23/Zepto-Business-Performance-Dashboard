@@ -1,0 +1,5 @@
+CREATE DATABASE Zepto_DB;
+GO
+
+USE Zepto_DB;
+GO
