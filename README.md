@@ -199,19 +199,30 @@ Based on the dashboard analysis, potential business actions include:
 ```text
 Zepto-Business-Performance-Dashboard/
 │
-├── Dashboard/
+├── 📂 Dashboard/
 │   └── Zepto_Business_Performance_Dashboard.pbix
-├── SQL Scripts/
-│   ├── Database_Creation.sql
-│   ├── Data_Insertion.sql
-│   └── Business_Queries.sql
-├── Images/
+│      • Interactive Power BI dashboard
+│
+├── 📂 SQL Scripts/
+│   ├── 01_Create_Database.sql
+│   ├── 02_Create_Tables_And_Constraints.sql
+│   ├── 03_Data_Import.sql
+│   ├── 04_Business_Queries.sql
+│   └── 05_Advanced_Queries.sql
+│      • Database creation, schema design, data import, business queries, and advanced SQL analysis
+│
+├── 📂 Images/
 │   ├── 01_Executive_Overview.png
 │   ├── 02_Business_Analytics.png
 │   └── 03_Business_Insights_Recommendations.png
-├── Datasets/
+│      • Dashboard preview screenshots
+│
+├── 📂 Datasets/
 │   └── README.md
+│      • Dataset description and download information
+│
 └── README.md
+   • Project documentation
 ```
 
 ---
