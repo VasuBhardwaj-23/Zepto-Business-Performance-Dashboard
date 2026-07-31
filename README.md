@@ -4,7 +4,7 @@
 
 ## End-to-End Business Intelligence Project
 
-**Transforming transactional data into actionable business insights using SQL Server, Power BI, Power Query & DAX**
+**Transforming synthetic transactional data into actionable business insights using SQL Server, Power BI, Power Query & DAX**
 
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -14,43 +14,49 @@
 
 </div>
 
+> **Note:** This project is built using a synthetic transactional dataset created for educational and portfolio purposes to demonstrate an end-to-end Business Intelligence workflow.
+
 ---
 
 # 📊 Project Overview
 
-This project demonstrates an end-to-end Business Intelligence solution designed to analyze Zepto's business performance. The solution follows a complete analytics lifecycle—from SQL-based data preparation and transformation to dimensional modeling, DAX measure creation, and interactive Power BI dashboard development.
+This project presents an end-to-end Business Intelligence solution developed using a synthetic transactional dataset representing Zepto's quick-commerce operations across selected Indian cities from **1 January 2025 to 31 December 2025**.
 
-The dashboard enables stakeholders to monitor revenue, customer behaviour, operational efficiency, inventory trends, payment preferences, and dark store performance through interactive visualizations and business-focused recommendations.
+The project demonstrates the complete analytics lifecycle—from SQL Server data preparation and Power Query transformation to dimensional data modeling, DAX measure creation, and interactive Power BI dashboard development.
+
+The dashboards provide a consolidated view of sales performance, customer purchasing behaviour, inventory status, payment trends, order fulfilment, and dark store operations, enabling data-driven business analysis within the defined project scope.
 
 ---
 
 # 💼 Business Problem
 
-Quick-commerce businesses process thousands of customer transactions every day. Business teams require a centralized reporting solution to monitor sales, customer activity, operational performance, and inventory health while identifying opportunities for business growth.
+Quick-commerce businesses generate large volumes of operational and transactional data that must be transformed into meaningful insights for business teams.
 
-This project addresses these requirements by converting raw transactional datasets into executive dashboards that support informed decision-making.
+This project demonstrates how a structured synthetic dataset can be used to build a centralized Business Intelligence solution for monitoring revenue, customer behaviour, product performance, inventory, payment trends, and dark store operations across selected cities and selected dark stores over a one-year business period.
 
 ---
 
 # 🎯 Project Objectives
 
-- Build a scalable end-to-end Business Intelligence solution.
-- Analyze revenue, orders, and customer behaviour.
-- Monitor operational KPIs.
-- Evaluate product, category, brand, and store performance.
-- Generate actionable business insights and recommendations.
+- Design an end-to-end Business Intelligence workflow.
+- Prepare and transform transactional data using SQL Server and Power Query.
+- Build a dimensional data model for analytical reporting.
+- Develop reusable DAX measures and KPIs.
+- Visualize business performance through interactive Power BI dashboards.
+- Generate actionable insights to support operational decision-making.
 
 ---
 
 # ⭐ Project Highlights
 
-- End-to-End Business Intelligence Workflow
+- Synthetic Business Dataset Design
 - SQL Server Data Preparation
-- Power Query ETL Process
+- Power Query ETL Workflow
 - Star Schema Data Modeling
-- Advanced DAX Measures & KPIs
+- DAX-Based KPI Development
 - Interactive Executive Dashboard
-- Business Insights & Strategic Recommendations
+- Business Performance Analytics
+- Business Insights & Recommendations
 
 ---
 
@@ -63,11 +69,25 @@ This project addresses these requirements by converting raw transactional datase
 | ETL | Power Query |
 | Data Modeling | Star Schema |
 | Analytics | DAX |
-| Data Source | CSV Files |
+| Data Source | Synthetic CSV Dataset |
 
 ---
 
 # 📂 Dataset Overview
+
+The project uses a synthetic relational dataset designed specifically for Business Intelligence analysis and dashboard development.
+
+## Coverage Summary
+
+| Attribute | Details |
+|-----------|----------|
+| Dataset Type | Synthetic Transactional Dataset |
+| Time Period | 1 January 2025 – 31 December 2025 |
+| Geographic Scope | Selected Indian Cities |
+| Operational Scope | 26 Selected Dark Stores |
+| Business Domain | Quick Commerce |
+
+## Dataset Statistics
 
 | Dataset | Records |
 |---------|---------:|
@@ -85,24 +105,24 @@ This project addresses these requirements by converting raw transactional datase
 # 🔄 End-to-End Workflow
 
 ```text
-CSV Datasets
-      │
-      ▼
+Synthetic CSV Datasets
+        │
+        ▼
 SQL Server
-      │
-      ▼
+        │
+        ▼
 Power Query (ETL)
-      │
-      ▼
+        │
+        ▼
 Star Schema Data Model
-      │
-      ▼
+        │
+        ▼
 DAX Measures & KPIs
-      │
-      ▼
+        │
+        ▼
 Power BI Dashboard
-      │
-      ▼
+        │
+        ▼
 Business Insights & Recommendations
 ```
 
@@ -110,8 +130,10 @@ Business Insights & Recommendations
 
 # 📈 Key Performance Indicators
 
+The following KPIs summarize business performance across the synthetic dataset covering the defined one-year analysis period.
+
 | KPI | Value |
-|-----|------:|
+|------|------:|
 | Total Revenue | ₹37.1 Lakh |
 | Total Orders | 5,000 |
 | Total Customers | 500 |
@@ -126,7 +148,7 @@ Business Insights & Recommendations
 
 ![Executive Overview](Images/01_Executive_Overview.png)
 
-Executive dashboard providing a consolidated view of revenue, orders, customers, monthly trends, order status, category performance, and delivery KPIs.
+Executive dashboard providing a consolidated view of revenue, orders, customers, monthly sales trends, order status, category performance, and operational KPIs.
 
 ---
 
@@ -134,7 +156,7 @@ Executive dashboard providing a consolidated view of revenue, orders, customers,
 
 ![Business Analytics](Images/02_Business_Analytics.png)
 
-Analytical dashboard covering top-performing products, brands, dark stores, payment distribution, peak order hours, and high-value customers.
+Analytical dashboard highlighting product performance, brand contribution, selected dark store comparison, payment distribution, customer spending behaviour, and peak ordering hours.
 
 ---
 
@@ -142,28 +164,33 @@ Analytical dashboard covering top-performing products, brands, dark stores, paym
 
 ![Business Insights](Images/03_Business_Insights_Recommendations.png)
 
-Business-focused summary highlighting analytical findings and strategic recommendations for operational improvement.
+Business-focused dashboard summarizing key analytical findings together with practical recommendations for operational improvement.
 
 ---
 
 # 💡 Key Business Insights
 
-- Identified top-performing products and brands contributing the highest revenue.
-- Compared dark store performance to identify high and low-performing locations.
-- Analyzed customer spending behaviour and average order value.
-- Evaluated payment preferences with UPI emerging as the dominant payment method.
-- Identified peak order hours to support operational planning.
-- Monitored delivery success, cancellations, failed orders, and operational efficiency.
+The dashboard enables analysis of:
+
+- Revenue trends across the one-year business period.
+- Comparative performance of selected dark stores.
+- Sales contribution by products, brands, and categories.
+- Customer purchasing behaviour and average order value.
+- Payment method distribution across transactions.
+- Peak ordering hours and order activity trends.
+- Delivery performance, cancellations, and fulfilment metrics.
 
 ---
 
 # 📌 Strategic Recommendations
 
-- Increase inventory for high-demand products.
-- Replicate successful operational practices across underperforming stores.
-- Strengthen customer retention through loyalty initiatives.
-- Optimize staffing during peak demand windows.
-- Promote digital payment adoption through targeted campaigns.
+Based on the dashboard analysis, potential business actions include:
+
+- Maintain adequate inventory for consistently high-demand products.
+- Benchmark operational practices of high-performing dark stores.
+- Improve customer retention through targeted engagement initiatives.
+- Optimize workforce allocation during peak ordering hours.
+- Encourage digital payment adoption through promotional campaigns.
 
 ---
 
@@ -174,9 +201,16 @@ Zepto-Business-Performance-Dashboard/
 │
 ├── Dashboard/
 │   └── Zepto_Business_Performance_Dashboard.pbix
-├── Datasets/
-├── Images/
 ├── SQL Scripts/
+│   ├── Database_Creation.sql
+│   ├── Data_Insertion.sql
+│   └── Business_Queries.sql
+├── Images/
+│   ├── 01_Executive_Overview.png
+│   ├── 02_Business_Analytics.png
+│   └── 03_Business_Insights_Recommendations.png
+├── Datasets/
+│   └── README.md
 └── README.md
 ```
 
@@ -186,20 +220,20 @@ Zepto-Business-Performance-Dashboard/
 
 1. Clone this repository.
 2. Open the PBIX file using Microsoft Power BI Desktop.
-3. Update data source paths if required.
+3. Update the data source paths if required.
 4. Refresh the data model.
-5. Explore the interactive dashboards.
+5. Explore the interactive dashboards and business insights.
 
 ---
 
 # 🔮 Future Enhancements
 
-- Power BI Service deployment
-- Real-time database integration
-- Demand forecasting
-- Customer segmentation
-- Predictive analytics
-- Inventory optimization
+- Scale the project using larger transactional datasets.
+- Expand analysis to additional cities and dark stores.
+- Integrate real-time data sources.
+- Deploy dashboards through Power BI Service.
+- Add demand forecasting using Machine Learning.
+- Implement customer segmentation and predictive analytics.
 
 ---
 
@@ -207,7 +241,7 @@ Zepto-Business-Performance-Dashboard/
 
 **Vasu Bhardwaj**
 
-**Aspiring Data Analyst | Business Intelligence | SQL | Power BI | Python**
+**Aspiring Data Analyst | SQL | Power BI | Python | Business Intelligence**
 
 ---
 
@@ -219,7 +253,7 @@ If you found this project valuable or learned something from it, please consider
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to leave a Star!
+### ⭐ If you found this project helpful, consider giving it a Star!
 
 **Built with ❤️ by Vasu Bhardwaj**
 
