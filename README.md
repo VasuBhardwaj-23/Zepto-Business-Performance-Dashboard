@@ -217,14 +217,9 @@ Zepto-Business-Performance-Dashboard/
 │   └── 03_Business_Insights_Recommendations.png
 │      • Dashboard preview screenshots
 │
-├── 📂 Datasets/
-│   └── README.md
-│      • Dataset description and download information
-│
 └── README.md
    • Project documentation
 ```
-
 ---
 
 # ▶️ Getting Started
