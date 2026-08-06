@@ -22,7 +22,7 @@
 
 This project presents an end-to-end Business Intelligence solution developed using a synthetic transactional dataset representing Zepto's quick-commerce operations across selected Indian cities from **1 January 2025 to 31 December 2025**.
 
-The project demonstrates the complete analytics lifecycle—from SQL Server data preparation and Power Query transformation to dimensional data modeling, DAX measure creation, and interactive Power BI dashboard development.
+The project demonstrates the complete analytics lifecycle from SQL Server data preparation and Power Query transformation to dimensional data modeling, DAX measure creation, and interactive Power BI dashboard development.
 
 The dashboards provide a consolidated view of sales performance, customer purchasing behaviour, inventory status, payment trends, order fulfilment, and dark store operations, enabling data-driven business analysis within the defined project scope.
 
