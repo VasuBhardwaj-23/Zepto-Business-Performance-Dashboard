@@ -134,10 +134,10 @@ The following KPIs summarize business performance across the synthetic dataset c
 
 | KPI | Value |
 |------|------:|
-| Total Revenue | ₹37.1 Lakh |
+| Total Revenue | ₹38.8 Lakh |
 | Total Orders | 5,000 |
 | Total Customers | 500 |
-| Average Order Value | ₹779.88 |
+| Average Order Value | ₹816.37 |
 | Average Delivery Time | 15 Minutes |
 
 ---
